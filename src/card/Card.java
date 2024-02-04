@@ -46,7 +46,14 @@ public class Card {
     public void setValue(int value) {
         this.value = value;
     }
-   
+    public Card(int value, String suit) {
+        this.value = value;
+        this.suit = suit;
+    }
+   // @override
+     public String toString() {
+        return this.suit + " " + this.value;
+    }
    
     
 }
