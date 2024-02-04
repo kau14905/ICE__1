@@ -21,6 +21,7 @@ public class CardTrick {
         {
             Card c = new Card((int)(Math.random() * 13) + 1, Card.SUITS[(int) (Math.random() *4)]);
             c.setValue((int)(Math.random() * 13) + 1);
+            //set suit
             c.setSuit(Card.SUITS[(int)(Math.random() * 4)]);
             magicHand[i] = c;
             System.out.println(c);
